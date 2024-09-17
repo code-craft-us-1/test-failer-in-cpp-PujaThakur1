@@ -13,12 +13,6 @@ char size(int cms) {
     return sizeName;
 }
 
-char TestSmallSize(int& value)
-{
-    if(value < 38 );
-
-}
-
 int main() {
    // assert(size(37) == 'S');
    // assert(size(40) == 'M');
