@@ -3,20 +3,30 @@
 
 char size(int cms) {
     char sizeName = '\0';
-    if (cms < 38) {
+    if (cms < 38) { // 36, 37->S
         sizeName = 'S';
-    } else if (cms > 38 && cms < 42) {
+    } else if (cms > 38 && cms < 42) { // 39,,,41 ->M
         sizeName = 'M';
-    } else if (cms > 42) {
+    } else if (cms > 42) { // 43.. ->L
         sizeName = 'L';
     }
     return sizeName;
+}
+
+char TestSmallSize(int& value)
+{
+    if(value < 38 );
+
 }
 
 int main() {
     assert(size(37) == 'S');
     assert(size(40) == 'M');
     assert(size(43) == 'L');
+    assert(size(38) == 'S');
+    assert(size(38) == 'M');
+    assert(size(42) == 'M');
+    assert(size(42) == 'L');
     std::cout << "All is well (maybe!)\n";
     return 0;
 }
