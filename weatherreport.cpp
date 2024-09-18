@@ -59,7 +59,8 @@ void TestRainy() {
     SensorStub sensor;
     string report = Report(sensor);
     cout << report << endl;
-    assert(report.find("rain") == string::npos);
+    assert(report.find("rain") != string::npos);
+    assert(report.find("junk") != string::npos);
 }
 
 // Test another rainy day
