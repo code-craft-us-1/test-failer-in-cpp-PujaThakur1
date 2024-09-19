@@ -1,8 +1,7 @@
 #include <assert.h>
 #include <iostream>
 
-int printNumber(int i , int j )
-{
+int printNumber(int i , int j ) {
    return (i * 5 + j)+1; 
 }
 int printColorMap() {
