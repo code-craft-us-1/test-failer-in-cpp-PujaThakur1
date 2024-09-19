@@ -2,7 +2,7 @@
 #include <iostream>
 
 int printNumber(int i , int j ) {
-    return (i * 5 + j)+1;
+    return (i * 5 + j);
 }
 int printColorMap() {
     const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
@@ -21,7 +21,7 @@ int main() {
     int result = printColorMap();
     assert(result == 25);
 
-    assert(printNumber(0,0) == 0);
+    assert(printNumber(5,5) == 25);
     std::cout << "All is well (maybe!)\n";
     return 0;
 }
