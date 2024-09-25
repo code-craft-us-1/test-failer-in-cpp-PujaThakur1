@@ -21,4 +21,4 @@ namespace MisAligned {
         assert(printNumber(0, 0) == 1);
         assert(printNumber(4, 4) == 25);
         std::cout << "All is well \n"; }
-}//
+}  //

@@ -1,5 +1,6 @@
 
 #include "WeatherReportTest.h"
+#include <string>
 
 namespace WeatherSpaceTest {
     void TestRainy() {
