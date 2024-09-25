@@ -1,7 +1,6 @@
 #include"MisAligned.h"
 
-namespace MisAligned
-{
+namespace MisAligned {
     int printNumber(int i, int j) {
         return (i * 5 + j) + 1; }
 
@@ -22,4 +21,4 @@ namespace MisAligned
         assert(printNumber(0, 0) == 1);
         assert(printNumber(4, 4) == 25);
         std::cout << "All is well \n"; }
-}
+}//

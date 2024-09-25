@@ -14,8 +14,7 @@ namespace TShirt {
         return sizeName;
     }
 
-    void TestSize()
-    {
+    void TestSize() {
         assert(size(37) == 'S');
         assert(size(38) == 'M');
         assert(size(41) == 'M');

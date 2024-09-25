@@ -1,8 +1,7 @@
 
 #include "WeatherReportTest.h"
 
-namespace WeatherSpaceTest
-{
+namespace WeatherSpaceTest {
     void TestRainy() {
         SensorStub sensor;
         string report = WeatherSpace::Report(sensor);

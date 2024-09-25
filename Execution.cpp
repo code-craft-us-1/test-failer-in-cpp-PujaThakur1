@@ -11,5 +11,4 @@ int main() {
 
     TShirt::TestSize();
     return 0;
-    
 }
