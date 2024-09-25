@@ -1,5 +1,6 @@
 
 #include "WeatherReport.h"
+#include"weatherreportTest.h"
 
 namespace WeatherSpace {
 
@@ -18,3 +19,9 @@ string Report(const IWeatherSensor& sensor) {
 }
 
 }  //// namespace WeatherSpace
+
+int main() {
+    WeatherSpaceTest::TestRainy();
+    WeatherSpaceTest::TestHighPrecipitationAndLowWindspeed();
+    cout << "All is well in weather Reporting\n";
+}

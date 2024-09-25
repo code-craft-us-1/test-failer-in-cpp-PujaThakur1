@@ -22,3 +22,8 @@ namespace MisAligned {
         assert(printNumber(4, 4) == 25);
         std::cout << "All is well \n"; }
 }  // namespace MisAligned
+
+int main() {
+    MisAligned::testPrintColorMap();
+    return 0;
+}
