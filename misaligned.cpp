@@ -26,4 +26,4 @@ namespace MisAligned {
 int main() {
     MisAligned::testPrintColorMap();
     return 0;
-}
+}  //
