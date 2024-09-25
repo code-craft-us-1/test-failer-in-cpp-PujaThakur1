@@ -20,4 +20,4 @@ namespace TShirt {
         assert(size(41) == 'M');
         assert(size(42) == 'L');
     }
-}
+}  // namespace TShirt

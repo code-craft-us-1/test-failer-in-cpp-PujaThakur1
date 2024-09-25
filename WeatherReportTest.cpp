@@ -20,4 +20,4 @@ namespace WeatherSpaceTest {
         string report = WeatherSpace::Report(sensor);
         assert(report.length() > 0);
     }
-}
+}  // namespace WeatherSpaceTest

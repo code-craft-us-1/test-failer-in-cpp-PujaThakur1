@@ -17,4 +17,4 @@ string Report(const IWeatherSensor& sensor) {
     return report;
 }
 
-}
+}  //// namespace WeatherSpace
