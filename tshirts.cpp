@@ -21,8 +21,9 @@ namespace TShirt {
         assert(size(42) == 'L');
     }
 
-    int main() {
-        TestSize();
+}  // namespace TShirt
+
+int main() {
+        TShirt::TestSize();
         return 0;
     }
-}  // namespace TShirt
