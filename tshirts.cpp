@@ -23,5 +23,6 @@ namespace TShirt {
 
     int main() {
         TestSize();
+        return 0;
     }
 }  // namespace TShirt
