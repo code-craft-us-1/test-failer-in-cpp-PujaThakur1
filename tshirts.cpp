@@ -20,4 +20,8 @@ namespace TShirt {
         assert(size(41) == 'M');
         assert(size(42) == 'L');
     }
+
+    int main() {
+        TestSize();
+    }
 }  // namespace TShirt
