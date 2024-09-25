@@ -9,6 +9,7 @@ int main() {
 
     MisAligned::testPrintColorMap();
 
-    TShirt::TestSize(); 
+    TShirt::TestSize();
     return 0;
+    
 }

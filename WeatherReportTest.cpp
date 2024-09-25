@@ -9,8 +9,7 @@ namespace WeatherSpaceTest
         cout << report << endl;
         assert(report.find("rain") != string::npos);
         assert(report.find("Sunny") == string::npos);
-        assert(report.find("cloudy") == string::npos);
-    }
+        assert(report.find("cloudy") == string::npos);}
 
     void TestHighPrecipitationAndLowWindspeed() {
         // This instance of stub needs to be different-
