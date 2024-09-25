@@ -1,6 +1,6 @@
 
 #include "WeatherReport.h"
-#include"WeatherReportTest.h"
+#include"WeatherReportTest.cpp"
 
 namespace WeatherSpace {
 
